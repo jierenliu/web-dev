@@ -1,0 +1,134 @@
+.wd-bg {
+    background-color: black;
+    color: white;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+
+}
+.wd-default {
+    min-width: 600px;
+    max-width: 1000px;
+}
+
+.wd-offset-left {
+    margin-left: 16px;
+}
+
+.wd-offset-top {
+    margin-top: 12px;
+}
+.wd-right-avatar {
+    margin-left: 12px;
+}
+.wd-white-large-word {
+    font-size: 20px;
+}
+.wd-blue-large-word {
+    font-size: 20px;
+    color: dodgerblue;
+}
+.wd-white-middle-word {
+    font-size: 15px;
+}
+
+
+.wd-grey-middle-word {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.wd-grey-small-word {
+    font-size: 13px;
+    color: lightgray;
+}
+
+.wd-line-12 {
+    line-height: 12px;
+}
+
+.wd-line-slim {
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-round {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.wd-left-part {
+    width: 10%;
+}
+
+.wd-right-part {
+    width: 90%;
+}
+.wd-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.wd-column-left {
+    float: left;
+    width: 10%;
+}
+
+.wd-column-right {
+    float: left;
+    width: 80%;
+    margin-right: 16px;
+}
+.wd-inside-right {
+    max-width: 506px;
+}
+
+.wd-float-right {
+    float:right;
+}
+
+.wd-round-top {
+    margin-top: 12px;
+    float: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-round-bottom {
+    float: left;
+    padding: 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    margin-top: 0pt;
+    width: 360pt;
+    border-top-style: hidden;
+}
+
+.wd-icon-color {
+    color: lightgray;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.wd-icon-color-red {
+    color: red;
+    text-decoration: none;
+    margin-right: 12px;
+
+}
+
+.wd-word-red {
+    color: red;
+
+}
+
+.wd-function-tool {
+    margin-top: 12px;
+    width: 360pt;
+}
+
