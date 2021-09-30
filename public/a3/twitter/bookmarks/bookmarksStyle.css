@@ -9,6 +9,7 @@
 .wd-default {
     min-width: 600px;
     max-width: 1000px;
+    background-color: black;
 }
 
 .wd-offset-left {
@@ -70,7 +71,7 @@
 }
 .wd-column-left {
     float: left;
-    width: 10%;
+    width: 50px;
 }
 
 .wd-column-right {
@@ -130,5 +131,10 @@
 .wd-function-tool {
     margin-top: 12px;
     width: 360pt;
+}
+
+.wd-top-board {
+    overflow: auto;
+    width: 100%;
 }
 

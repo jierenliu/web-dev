@@ -12,6 +12,7 @@
 .wd-default {
     min-width: 600px;
     max-width: 1000px;
+    background-color: black;
 }
 .wd-search-left {
     border-radius: 30px 0px 0px 30px;
@@ -66,7 +67,8 @@
 
 .wd-expl-nag {
     font-size: 15px;
-    padding: 16px;
+    padding-top: 16px;
+    text-decoration: none;
 }
 
 .wd-grey-small-word {
@@ -124,6 +126,21 @@
     z-index: 10;
 }
 
-.wd-tableCenter {
+
+.wd-table-select {
+    border-bottom: dodgerblue;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+
+.wd-table-height-small {
+    height: 40px;
+}
+
+.wd-table-col-small {
+    width: 5%;
+}
+.wd-table-col-middle {
+    width: 8%;
     text-align: center;
 }
