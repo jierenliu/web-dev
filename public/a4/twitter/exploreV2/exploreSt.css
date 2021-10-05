@@ -1,0 +1,214 @@
+.wd-search-left {
+    border-radius: 30px 0px 0px 30px;
+    background-color: #171a1e;
+    border-right-style: none;
+    border-color: #171a1e;
+    color: darkgrey;
+}
+.wd-search-middle {
+    border-radius: 0px 30px 30px 0px;
+    background-color: #171a1e;
+    border-style: none;
+    border-color: #171a1e;
+
+}
+.form-control::placeholder {
+    color: darkgrey;
+}
+
+.form-control:focus {
+    background-color: #171a1e;
+}
+
+.wd-search-right {
+    color: lightgrey;
+    text-decoration: none;
+
+
+}
+
+.wd-center-pic {
+    width: 100%;
+    vertical-align: auto;
+}
+
+.wd-bottom-left {
+    position: relative;
+    bottom: 40px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.wd-starship-position {
+    position: relative;
+    top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wd-small-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+
+}
+
+.wd-grey-small-word {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    font-weight: normal;
+
+}
+
+.wd-black-small-word {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.wd-main-info {
+    border: 1px solid dimgray;
+    border-top-style: none;
+    border-bottom-style: none;
+    padding: 10px;
+}
+
+.wd-img-group {
+    position: relative;
+    display: inline-block;
+}
+.wd-img-tip {
+    position: absolute;
+    bottom: 0;
+}
+
+.wd-big-white-text {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.wd-default-button {
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    background-color: #2097e7;
+    font-weight: bold;
+
+}
+.wd-xs-pic {
+    border-radius: 30px 30px 30px 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.wd-small-white-word {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.wd-black-bg {
+    background-color: black;
+}
+
+.wd-right-bb-word {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.wd-right-b-word {
+    font-size: 13px;
+    color: darkgrey;
+    font-weight: normal;
+}
+
+.wd-sm-tw-button {
+
+}
+
+.wd-to-right {
+    text-align: right;
+}
+.wd-bigger-icon {
+    font-size: 20px;
+}
+
+
+.wd-left-navi {
+    border-style: hidden;
+    background-color: black;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.wd-left-hover:hover {
+    background-color: black;
+    color: white;
+}
+
+.wd-left-icon {
+    font-size: 18px;
+    color: white;
+}
+
+.wd-left-active {
+    background-color: black;
+}
+
+.wd-selected {
+    font-weight: bold;
+}
+
+.wd-mid-navi {
+    border-style: none;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: dimgray;
+    padding-left: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+.wd-mid-hover:hover {
+    background-color: black;
+    color: dimgray;
+}
+
+.wd-mid-navi-big {
+    border-style: none;
+}
+.wd-grey-boarder {
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgray;
+    border-top-style: none;
+}
+.wd-middle-select {
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-color: #2097e7;
+    font-weight: bold;
+}
+
+.wd-right {
+    background-color: #171a1e;
+    border-style: none;
+}
+
+.wd-right-up {
+    border-radius: 15px 15px 15px 15px;
+    background-color: #171a1e;
+}
+
+.wd-right-button {
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    background-color: white;
+    border-style: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 35px;
+}

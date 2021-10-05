@@ -1,0 +1,146 @@
+.wd-bg {
+    background-color: black;
+    color: white;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+
+}
+.wd-bg-search {
+    background-color: darkgray;
+}
+.wd-default {
+    min-width: 600px;
+    max-width: 1000px;
+    background-color: black;
+}
+.wd-search-left {
+    border-radius: 30px 0px 0px 30px;
+    background-color: darkgray;
+    color: lightgray;
+    height: 37px;
+    padding-top: 5px;
+    padding-left: 10pt;
+    width: 5%;
+}
+.wd-search-middle {
+    border-radius: 0px 30px 30px 0px;
+    background-color: darkgray;
+    border-style: hidden;
+    height: 40px;
+    width: 80%;
+    outline: none;
+    display: inline-block;
+
+}
+
+.wd-search-right {
+    color: rgb(29,161,242);
+    text-decoration: none;
+    width: 5%;
+    padding-left: 30pt;
+    padding-top: 5px;
+}
+.wd-offset-left {
+    margin-left: 16px;
+}
+
+.wd-float-left {
+    float: left;
+}
+.wd-float-right {
+    float:right;
+
+}
+
+.wd-full-page {
+    width: 100%;
+}
+
+.wd-blue {
+    color: rgb(29,161,242);
+}
+
+.wd-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-expl-nag {
+    font-size: 15px;
+    padding-top: 16px;
+    text-decoration: none;
+}
+
+.wd-grey-small-word {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-white-middle-word {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.wd-white-small-word {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-line {
+    border-color: rgb(47, 51, 54);
+    border-width: 2px;
+
+}
+.wd-line-slim {
+    border-color: rgb(47, 51, 54);
+}
+.wd-grey-space {
+    border-color: rgb(47, 51, 54);
+    border-width: 3px 0px 1px 0px;
+    background-color: #181818;
+    border-style: solid;
+    font-size: 10px;
+}
+
+.wd-blank-right {
+    width: 16px;
+    background-color: #212121;
+}
+
+.wd-search-block {
+    height: 110px;
+}
+
+.wd-border {
+    border-color: rgb(47, 51, 54);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.wd-all-round {
+    border-radius: 10pt;
+}
+
+.wd-putTop {
+    z-index: 10;
+}
+
+
+.wd-table-select {
+    border-bottom: dodgerblue;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+
+.wd-table-height-small {
+    height: 40px;
+}
+
+.wd-table-col-small {
+    width: 5%;
+}
+.wd-table-col-middle {
+    width: 8%;
+    text-align: center;
+}
