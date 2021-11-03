@@ -68,8 +68,8 @@ code {
 
 .wd-xs-pic {
   border-radius: 30px 30px 30px 30px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-top: 5px;
 }
 .wd-default-button {
@@ -147,4 +147,14 @@ code {
 
 .wd-main-topCur {
   border-radius: 15px 15px 0px 0px;
+}
+
+.wd-happening {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.wd-delete {
+  float: right;
 }

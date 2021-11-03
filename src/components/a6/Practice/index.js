@@ -13,6 +13,9 @@ const Practice = () => {
             </Link> |
             <Link to="/a6/twitter/home">
                 Build
+            </Link> (In Build, click Twitter logo back to practice) |
+            <Link to="../../a7/practice">
+                To HomeWork 7
             </Link>
             <TodoList/>
             <ConditionalOutput/>
