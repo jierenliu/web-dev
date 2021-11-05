@@ -9,13 +9,15 @@ const EditComponent = () => {
     let [myLocation, setLocation] = useState(`${location}`);
     let [myName, setName] = useState(`${firstName} ${lastName}`);
     let [myWebsite, setWebsite] = useState(`${website}`);
-    const dob = dateOfBirth.split("/")
+    let dob = dateOfBirth.split("/")
     let [myDateOfBirth, setDateOfBirth] = useState(`${dob[2]}-${dob[0]}-${dob[1]}`);
     const dispatch = useDispatch();
     const saveHandler = () => {
         const names = myName.split(" ");
         const myFirst = names[0];
         const myLast = names.slice(1).join(" ")
+        let newDOB = myDateOfBirth.split("-")
+        const slashDOB = `${newDOB[1]}/${newDOB[2]}/${newDOB[0]}`
         dispatch({
             type: "save-info",
             info: {
@@ -24,7 +26,7 @@ const EditComponent = () => {
                 bio: myBio,
                 location: myLocation,
                 website: myWebsite,
-                dateOfBirth: myDateOfBirth
+                dateOfBirth: slashDOB
             }
         })
     }
@@ -79,7 +81,9 @@ const EditComponent = () => {
             <br/>
             <div className="pf-edit-area">
                 <div className="pf-grey-small">Birth date</div>
-                <input type="date" className="pf-dateArea" value={myDateOfBirth} onChange={(event) => setDateOfBirth(event.target.value)}/>
+                <input type="date" className="pf-dateArea" value={myDateOfBirth} defaultValue={myDateOfBirth} onChange={(event) => {
+                    const newDay = event.target.value.split("-")
+                    return (setDateOfBirth(`${newDay[0]}-${newDay[1]}-${newDay[2]}`))}}/>
             </div>
             <br/>
 
