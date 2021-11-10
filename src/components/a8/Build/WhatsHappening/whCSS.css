@@ -1,0 +1,24 @@
+.hs-newTweet {
+    background-color: black;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    width: 100%;
+    min-height: 70px;
+    color: white;
+}
+
+.hs-tweet-button {
+    float: right;
+}
+
+.hs-icon {
+    color: #2c99cf;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.hs-bg {
+    background-color: black;
+    border: hidden;
+}

@@ -1,0 +1,139 @@
+.pf-white-large {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.pf-avatar {
+    float: left;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    z-index: 2;
+    position: absolute;
+    top:240px;
+}
+
+.pf-banner {
+    width: 100%;
+}
+
+.pf-edit-button {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border: solid grey 1px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.pf-white {
+    color: white;
+}
+
+.pf-grey-small {
+    color: grey;
+    font-size: 14px;
+}
+.pf-tweet-closer {
+    position: relative;
+    bottom: 6px;
+}
+
+.pf-upper {
+    min-height: 315px;
+}
+
+.pf-edit-upper {
+    min-height: 290px;
+}
+
+.pf-grey-middle {
+    color: grey;
+    font-size: 15px;
+}
+
+.pf-white-bold {
+    color: white;
+    font-weight: bold;
+}
+
+.pf-input-area {
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-style: none;
+    font-size: 18px;
+}
+
+.pf-edit-area {
+    border: dimgray solid 1px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+input[type="text"], textarea{
+    outline: none;
+}
+
+.pf-dateArea {
+    color: white;
+    background-color: black;
+    border-style: none;
+    font-size: 18px;
+}
+
+.pf-large-area {
+    min-height: 100px;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.pf-save-button {
+    float: right;
+    border: hidden;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 0px;
+    position: relative;
+    left: 50px;
+    top:3px;
+    padding: 5px 15px;
+}
+
+.pf-avatar-change {
+    position: relative;
+    left: 55px;
+    bottom: 55px;
+    font-size: 25px;
+    z-index: 3;
+}
+
+.pf-banner-change {
+    position: relative;
+    left: 300px;
+    bottom: 150px;
+    font-size: 25px;
+}
+
+.pf-banner-close {
+    position: relative;
+    left: 340px;
+    bottom: 150px;
+    font-size: 25px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.pf-icon-size {
+    font-size: 23px;
+}

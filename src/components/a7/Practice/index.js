@@ -14,7 +14,10 @@ const Practice = () => {
             </Link> |
             <Link to="/a7/twitter/home">
                 Build
-            </Link> (In Build, click Twitter logo back to practice)
+            </Link> (In Build, click Twitter logo back to practice) |
+            <Link to="/a8/practice">
+                To Homework 8
+            </Link> |
             <ReduxExamples/>
             <TodoList/>
             <ConditionalOutput/>
