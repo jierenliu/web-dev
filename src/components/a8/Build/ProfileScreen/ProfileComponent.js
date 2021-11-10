@@ -28,7 +28,7 @@ const ProfileComponent = () => {
             <div className="row">
 
                 <div className="col-1 ps-4 pt-2">
-                    <Link to="/a7/twitter/home">
+                    <Link to="/a8/twitter/home">
                         <i className="fas fa-arrow-left pf-white pf-icon-size"/>
                     </Link>
                 </div>

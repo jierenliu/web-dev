@@ -1,4 +1,4 @@
-const PROFILE_API = 'http://localhost:4000/api/profile';
+const PROFILE_API = 'https://tranquil-island-31288.herokuapp.com/api/profile';
 
 export const fetchInfo = (dispatch) => {
     fetch(PROFILE_API)
