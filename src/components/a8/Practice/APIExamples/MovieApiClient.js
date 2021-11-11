@@ -7,16 +7,24 @@ const MovieApiClient = () => {
         setMovie({...movie, title: event.target.value});
     }
     const createMovieClickHandler = () => {
-        movie._id = Date.now() + '';
+        // Create a new movie object specifically to be the payload to the server
+        const newMovie = {
+            ...movie,
+            _id: (new Date()).getTime().toString()
+        };
+
         fetch('https://tranquil-island-31288.herokuapp.com/api/movies', {
             method: 'POST',
-            body: JSON.stringify(movie),
-            headers: {
-                'content-type': 'application/json'
-            }
+            body: JSON.stringify(newMovie),
+            headers: { 'content-type': 'application/json' }
         })
             .then(response => response.json())
-            .then(movies => setMovies(movies))
+            .then(movies => {
+                setMovies(movies);
+                // If you want to do something with the newly created movie
+                // like set the `movie` state to it, Either retrieve the newly
+                // created movie here from `movies` or use `newMovie`
+            })
     }
 
     useEffect(() =>
