@@ -1,18 +1,21 @@
-const PROFILE_API = 'https://tranquil-island-31288.herokuapp.com/api/profile';
+const PROFILE_API = 'https://tranquil-island-31288.herokuapp.com/profile';
 
 export const fetchInfo = (dispatch) => {
     fetch(PROFILE_API)
         .then(response => response.json())
-        .then(info =>
+        .then(info => {
+            const original = info[0];
             dispatch({
                 type: 'fetch-profile',
-                info
+                original
             })
+        }
+
         );
 
 }
 export const changeInfo = (dispatch, info) => {
-    fetch(PROFILE_API, {
+    fetch(`${PROFILE_API}/${info._id}`, {
         method: 'PUT',
         body: JSON.stringify(info),
         headers: {

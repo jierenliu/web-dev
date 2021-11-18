@@ -3,7 +3,7 @@ import posts from './data/tweets.json';
 const tweets = (state = posts, action) => {
     switch (action.type) {
         case 'fetch-all-tweets':
-            return(action.tweets)
+            return(action.tweets.reverse())
             break;
         case 'like-tweet':
             return (state.map(tweet => {
@@ -29,24 +29,9 @@ const tweets = (state = posts, action) => {
             )
             break;
         case 'create-tweet':
-            const tweet = {
-                "_id": (new Date()).getTime() + '',
-                "topic": "Web Development",
-                "userName": "ReactJS",
-                "verified": false,
-                "handle": "ReactJS",
-                "time": "2h",
-                ...action.tweet,
-                "avatar-image": "../../../images/react.jpeg",
-                "logo-image": "../../../images/react.jpeg",
-                "stats": {
-                    "comments": 123,
-                    "retweets": 234,
-                    "likes": 345
-                },
-            }
+
             return ([
-                    tweet,
+                    action.tweet,
                     ...state]
             );
             break;

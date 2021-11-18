@@ -11,6 +11,8 @@ import {default as ExploreScreen2} from "./components/a6/Build/ExploreScreen";
 import {default as HelloWorld2} from "./components/a6/HelloWorld";
 import {default as Practice3} from "./components/a8/Practice"
 import {default as Build3} from "./components/a8/Build";
+import {default as Practice4} from "./components/a9/Practice"
+import {default as Build4} from "./components/a9/Build";
 function App() {
   return (
       <BrowserRouter>
@@ -33,12 +35,20 @@ function App() {
               <Route path="/a6/twitter/home">
                   <HomeScreen2/>
               </Route>
-              <Route path={["/", "/a8", "/a8/practice"]} exact={true}>
+              <Route path={["/a8", "/a8/practice"]} exact={true}>
                   <Practice3/>
               </Route>
               <Route path="/a8/twitter">
                   <Build3/>
               </Route>
+              <Route path={["/", "/a9", "/a9/practice"]} exact={true}>
+                  <Practice4/>
+              </Route>
+              <Route path="/a9/twitter">
+                  <Build4/>
+              </Route>
+
+
           </div>
       </BrowserRouter>
 

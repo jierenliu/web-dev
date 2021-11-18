@@ -3,15 +3,19 @@ const TWEET_API = 'https://tranquil-island-31288.herokuapp.com/api/tweets';
 export const fetchAllTweets = (dispatch) => {
     fetch(TWEET_API)
         .then(response => response.json())
-        .then(tweets =>
+        .then(tweets => {
             dispatch({
                 type: 'fetch-all-tweets',
                 tweets
             })
+        }
+
         );
 
 }
-export const postNewTweet = (dispatch, newTweet) =>
+export const postNewTweet = (dispatch, newTweet) => {
+    console.log('in post');
+    console.log(JSON.stringify(newTweet));
     fetch(TWEET_API, {
         method: 'POST',
         body: JSON.stringify(newTweet),
@@ -26,9 +30,10 @@ export const postNewTweet = (dispatch, newTweet) =>
                 tweet
             })
         );
+}
+
 
 export const deleteTweet = (dispatch, tweet) =>{
-    console.log(`${TWEET_API}/:${tweet._id}`);
     fetch(`${TWEET_API}/${tweet._id}`, {
         method: 'DELETE'
     }).then(response => dispatch({
